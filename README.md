@@ -13,6 +13,7 @@ O que você precisa ter para rodar essa aplicação:
 
 O que você precisa fazer para rodar essa aplicação:
 - Clonar o repositório.
+- Copiar e colar o arquivo `.env.example` e renomear para `.env.local` e colar os valores das variáveis de ambiente.
 - Entrar na pasta do projeto pelo terminal e rodar os comandos:
 
 ```bash
