@@ -38,9 +38,7 @@ export function AuthContextProvider(props: AuthContextProviderProps) {
             }
         });
 
-        return () => {
-            unsubscribe();
-        };
+        return () => unsubscribe();
     }, []);
 
     async function signInWithGoogle() {
