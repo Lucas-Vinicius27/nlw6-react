@@ -134,8 +134,15 @@ export function Room() {
                         </Button>
                     </div>
                 </form>
-                <Question />
-                {JSON.stringify(questions)}
+                <div className="questionList">
+                    {questions.map(question => (
+                        <Question
+                            key={question.id}
+                            author={question.author}
+                            content={question.content}
+                        />
+                    ))}
+                </div>
             </section>
         </div>
     );
