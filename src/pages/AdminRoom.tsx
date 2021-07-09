@@ -74,6 +74,8 @@ export function AdminRoom() {
                             key={question.id}
                             author={question.author}
                             content={question.content}
+                            isAnswered={question.isAnswered}
+                            isHighlighted={question.isHighlighted}
                         >
                             <button
                                 type="button"
