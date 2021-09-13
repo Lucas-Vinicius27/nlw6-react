@@ -6,7 +6,7 @@ type User = {
     name: string;
     avatar: string;
 }
-  
+
 type AuthContextType = {
     user: User | undefined;
     signInWithGoogle: () => Promise<void>;
